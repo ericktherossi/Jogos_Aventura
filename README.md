@@ -1,6 +1,9 @@
 # Jogos_Aventura
-- vídeo que segui como referência: https://www.youtube.com/watch?v=lH-NHcoCWPw  *ótimo vídeo do canal do Luis Otavio.*
 
--🌱 Aprendendo a fazer webscraping no R com os títulos de jogos de aventura do IDMB.
+- *Ótimo vídeo do Luis Otavio, que segui como referência:* https://www.youtube.com/watch?v=lH-NHcoCWPw
 
-- Lembrar de disponibilizar na Kaggle como primeira contribuição singela.
+- 🌱 Aprendendo a fazer webscraping no R com os títulos de jogos de aventura do IDMB.
+
+- 🧷 Lembrar de disponibilizar na Kaggle como primeira contribuição singela.
+
+- 🕐 Tempo de execução: aproximadamente, 27 minutos.
