@@ -33,7 +33,7 @@ Banco_jogos <- data.frame()
 #contador
 j=1
 
-for(i in 1:16){
+for(i in 1:17){
   #contador para remover depois
   print(j)
   j=j+1
