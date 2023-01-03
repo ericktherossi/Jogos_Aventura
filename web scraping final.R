@@ -2,6 +2,7 @@
 
 #começo
 comeco <- Sys.time()
+beepr::beep(sound=2,expr=print(comeco))
 
 #bibliotecas
 library(rvest)
@@ -31,7 +32,7 @@ pega_valor2 <- function(link_avaliacao){
 Banco_jogos <- data.frame()
 
 #alterar o numero final para as paginas desejadas
-for(i in 1:2){
+for(i in 1:17){
   #variaveis coletadas
   
   nome_jogo <- page %>% html_nodes('.lister-item-header a') %>% 
@@ -104,5 +105,6 @@ for(i in 1:2){
 
 #final
 final <- Sys.time()
-
+beepr::beep(sound=2,expr=print(final))
+  
 beepr::beep('mario', expr=print(final-comeco))
