@@ -1,12 +1,12 @@
 #webscraping
 
-#começo
-comeco <- Sys.time()
-beepr::beep(sound=2,expr=print(comeco))
-
 #bibliotecas
 library(rvest)
 library(dplyr)
+
+#começo
+comeco <- Sys.time()
+beepr::beep(sound=2,expr=print(comeco))
 
 #pagina utilizada
 link <- 'https://www.imdb.com/search/title/?title_type=video_game&genres=horror,adventure&genres=Adventure&explore=title_type,genres&ref_=adv_explore_rhs'
@@ -101,6 +101,7 @@ for(i in 1:17){
   
   #tempo iteracao
   beepr::beep(sound=2,expr=print(Sys.time()))
+  Sys.sleep(1) #resolvendo problema do beep 
 }
 
 #final
